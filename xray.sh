@@ -316,10 +316,10 @@ systemctl enable vless-grpc
 systemctl restart vless-grpc
 #
 cd /usr/bin
-wget -O addgrpc "https://raw.githubusercontent.com/VPN-EXECUTIVE/mandiri/master/grpc/addgrpc.sh"
-wget -O delgrpc "https://raw.githubusercontent.com/VPN-EXECUTIVE/mandiri/master/grpc/delgrpc.sh"
-wget -O renewgrpc "https://raw.githubusercontent.com/VPN-EXECUTIVE/mandiri/master/grpc/renewgrpc.sh"
-wget -O cekgrpc "https://raw.githubusercontent.com/VPN-EXECUTIVE/mandiri/master/grpc/cekgrpc.sh"
+wget -O addgrpc "https://raw.githubusercontent.com/VPN-EXECUTIVE/mandiri/master/addgrpc.sh"
+wget -O delgrpc "https://raw.githubusercontent.com/VPN-EXECUTIVE/mandiri/master/delgrpc.sh"
+wget -O renewgrpc "https://raw.githubusercontent.com/VPN-EXECUTIVE/mandiri/master/renewgrpc.sh"
+wget -O cekgrpc "https://raw.githubusercontent.com/VPN-EXECUTIVE/mandiri/master/cekgrpc.sh"
 
 chmod +x addgrpc
 chmod +x delgrpc
