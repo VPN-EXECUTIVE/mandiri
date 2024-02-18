@@ -18,7 +18,7 @@ apt install openvpn easy-rsa unzip -y
 apt install openssl iptables iptables-persistent -y
 mkdir -p /etc/openvpn/server/easy-rsa/
 cd /etc/openvpn/
-wget https://raw.github.com/VPN-EXECUTIVE/mandiri/udp-custom/openvpn/vpn.zip
+wget https://raw.githubusercontent.com/VPN-EXECUTIVE/mandiri/master/udp-custom/openvpn/vpn.zip
 unzip vpn.zip
 rm -f vpn.zip
 chown -R root:root /etc/openvpn/server/easy-rsa/
