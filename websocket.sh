@@ -19,7 +19,7 @@ GitUser="mandiri"
 cat <<EOF> /etc/systemd/system/ws-https.service
 [Unit]
 Description=Python Proxy
-Documentation=https://github.com/VPN-EXECUTIVE/mandiri/
+Documentation=https://raw.githubusercontent.com/VPN-EXECUTIVE/mandiri/master/
 After=network.target nss-lookup.target
 
 [Service]
@@ -39,7 +39,7 @@ EOF
 cat <<EOF> /etc/systemd/system/ws-http.service
 [Unit]
 Description=Python Proxy
-Documentation=https://github.com/VPN-EXECUTIVE/mandiri/
+Documentation=https://raw.githubusercontent.com/VPN-EXECUTIVE/mandiri/master/
 After=network.target nss-lookup.target
 
 [Service]
@@ -58,7 +58,7 @@ EOF
 cat <<EOF> /etc/systemd/system/ws-ovpn.service
 [Unit]
 Description=Python Proxy
-Documentation=https://github.com/VPN-EXECUTIVE/mandiri/
+Documentation=https://raw.githubusercontent.com/VPN-EXECUTIVE/mandiri/master/
 After=network.target nss-lookup.target
 
 [Service]
