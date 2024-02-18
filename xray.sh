@@ -39,7 +39,7 @@ chmod +x /usr/local/bin/xray
 mkdir -p /var/log/xray/
 #
 wget -q -O /usr/local/bin/geosite.dat "https://raw.github.com/VPN-EXECUTIVE/mandiri/master/grpc/menu/geosite.dat"
-wget -q -O /usr/local/bin/geoip.dat "https://raw.github.com/VPN-EXECUTIVE/mandiri/AutoScriptXray/grpc/ma/geoip.dat"
+wget -q -O /usr/local/bin/geoip.dat "https://raw.github.com/VPN-EXECUTIVE/mandiri/master/grpc/ma/geoip.dat"
 
 #
 cat > /etc/xray/vmessgrpc.json << END
