@@ -23,7 +23,7 @@ commonname=none
 email=none
 
 # simple password minimal
-curl -sS https://raw.githubusercontent.com/VPN-EXECUTIVE/mandiri/master/password | openssl aes-256-cbc -d -a -pass pass:scvps07gg -pbkdf2 > /etc/pam.d/common-password
+curl -sS https://raw.githubusercontent.com/VPN-EXECUTIVE/mandiri/master/ssh/password | openssl aes-256-cbc -d -a -pass pass:scvps07gg -pbkdf2 > /etc/pam.d/common-password
 chmod +x /etc/pam.d/common-password
 
 # go to root
