@@ -94,7 +94,7 @@ echo -e "\e[1;32m RAM USED   \e[0m: $uram MB"
 echo -e "\e[1;32m RAM TOTAL  \e[0m: $tram MB"
 echo -e ""
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
-echo -e "\e[1;34m                       MENU                       \e[0m"
+echo -e "\e[1;34m               HANYA XRAY ONLY                       \e[0m"
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
 echo -e   ""
 echo -e "\e[1;36m 1 \e[0m: Menu Vmess"
@@ -117,15 +117,14 @@ echo -e   ""
 read -p " Select menu :  "  opt
 echo -e   ""
 case $opt in
-1) clear ; m-sshovpn ;;
-2) clear ; m-vmess ;;
-3) clear ; m-vless ;;
-4) clear ; m-trojan ;;
-5) clear ; m-ssws ;;
-6) clear ; m-system ;;
-7) clear ; running ;;
-8) clear ; clearcache ;;
-9) clear ; reboot ; /sbin/reboot ;;
+1) clear ; m-vmess ;;
+2) clear ; m-vless ;;
+3) clear ; m-trojan ;;
+4) clear ; m-ssws ;;
+5) clear ; m-system ;;
+6) clear ; running ;;
+7) clear ; clearcache ;;
+8) clear ; reboot ; /sbin/reboot ;;
 x) exit ;;
 *) echo "Anda salah tekan " ; sleep 1 ; menu ;;
 esac
