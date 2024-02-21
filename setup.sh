@@ -141,13 +141,6 @@ echo -e "${BGreen}Done!${NC}"
 sleep 2
 clear
     
-#install ssh ovpn
-echo -e "\e[33m-----------------------------------\033[0m"
-echo -e "$BGreen      Install SSH Websocket           $NC"
-echo -e "\e[33m-----------------------------------\033[0m"
-sleep 0.5
-clear
-wget https://raw.githubusercontent.com/VPN-EXECUTIVE/mandiri/master/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 #Instal Xray
 echo -e "\e[33m-----------------------------------\033[0m"
 echo -e "$BGreen          Install XRAY              $NC"
@@ -177,9 +170,6 @@ rm /root/log-install.txt > /dev/null 2>&1
 fi
 if [ -f "/etc/afak.conf" ]; then
 rm /etc/afak.conf > /dev/null 2>&1
-fi
-if [ ! -f "/etc/log-create-ssh.log" ]; then
-echo "Log SSH Account " > /etc/log-create-ssh.log
 fi
 if [ ! -f "/etc/log-create-vmess.log" ]; then
 echo "Log Vmess Account " > /etc/log-create-vmess.log
