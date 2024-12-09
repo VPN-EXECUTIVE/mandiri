@@ -16,8 +16,8 @@ cd
 read -p "File Berhasil Di Hapus Klik Enter Untuk Melanjutkan"
 clear
 cd /usr/bin
-wget -O add-ws "https://raw.githubusercontent.com/VPN-EXECUTIVE/mandiri/V2/master/add-ws.sh" && chmod +x add-ws
-wget -O add-tr "https://raw.githubusercontent.com/VPN-EXECUTIVE/mandiri/V2/master/add-tr.sh" && chmod +x add-tr
+wget -O add-ws "https://raw.githubusercontent.com/VPN-EXECUTIVE/mandiri/master/V2/add-ws.sh" && chmod +x add-ws
+wget -O add-tr "https://raw.githubusercontent.com/VPN-EXECUTIVE/mandiri/master/V2/add-tr.sh" && chmod +x add-tr
 read -p "File Berhasil Di Update Klik Enter Untuk Melanjutkan"
 cd
 clear
